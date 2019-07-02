@@ -10,7 +10,7 @@ class TestDuckDuckGo(unittest.TestCase):
     searchData = lambda: [
         ['Selenium and Python', 'python'],
         ['Selenium and Python', 'selenium'],
-        ['Udemy wikipedia', 'wiki'],
+        ['Udemy wikipedia', 'wiki error'],
     ]
 
     @data_provider(searchData)
