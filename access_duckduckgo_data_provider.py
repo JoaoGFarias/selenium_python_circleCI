@@ -43,3 +43,7 @@ class TestDuckDuckGo(unittest.TestCase):
         driver.close()
 
         assert expected_string in url_text
+
+
+if __name__ == '__main__':
+    unittest.main()
